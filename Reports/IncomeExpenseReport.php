@@ -2,12 +2,12 @@
 
 namespace Addons\IncomeExpenseReport\Reports;
 
-use FI\Modules\Expenses\Models\Expense;
-use FI\Modules\Invoices\Models\Invoice;
-use FI\Support\CurrencyFormatter;
-use FI\Support\DateFormatter;
-use FI\Support\NumberFormatter;
-use FI\Support\Statuses\InvoiceStatuses;
+use IP\Modules\Expenses\Models\Expense;
+use IP\Modules\Invoices\Models\Invoice;
+use IP\Support\CurrencyFormatter;
+use IP\Support\DateFormatter;
+use IP\Support\NumberFormatter;
+use IP\Support\Statuses\InvoiceStatuses;
 use Illuminate\Support\Carbon;
 
 class IncomeExpenseReport

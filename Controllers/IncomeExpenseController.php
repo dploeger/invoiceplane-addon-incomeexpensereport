@@ -2,11 +2,11 @@
 
 namespace Addons\IncomeExpenseReport\Controllers;
 
-use FI\Http\Controllers\Controller;
+use IP\Http\Controllers\Controller;
 use Addons\IncomeExpenseReport\Reports\IncomeExpenseReport;
-use FI\Modules\Reports\Requests\DateRangeRequest;
-use FI\Support\PDF\PDFFactory;
-use FI\Modules\CompanyProfiles\Models\CompanyProfile;
+use IP\Modules\Reports\Requests\DateRangeRequest;
+use IP\Support\PDF\PDFFactory;
+use IP\Modules\CompanyProIPles\Models\CompanyProIPle;
 
 
 class IncomeExpenseController extends Controller {
