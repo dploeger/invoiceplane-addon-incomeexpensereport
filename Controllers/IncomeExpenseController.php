@@ -6,7 +6,7 @@ use IP\Http\Controllers\Controller;
 use Addons\IncomeExpenseReport\Reports\IncomeExpenseReport;
 use IP\Modules\Reports\Requests\DateRangeRequest;
 use IP\Support\PDF\PDFFactory;
-use IP\Modules\CompanyProIPles\Models\CompanyProIPle;
+use IP\Modules\CompanyProfiles\Models\CompanyProfile;
 
 
 class IncomeExpenseController extends Controller {
