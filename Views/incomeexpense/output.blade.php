@@ -15,11 +15,11 @@
 
         <thead>
         <tr>
-            <th style="width: 20%;">{{ trans('fi.date') }}</th>
+            <th style="width: 20%;">{{ trans('ip.date') }}</th>
             <th style="width: 20%;">{{ trans('IncomeExpenseReport::report.clientvendor') }}</th>
             <th style="width: 20%;">{{ trans('IncomeExpenseReport::report.reference') }}</th>
-            <th style="width: 20%;">{{ trans('fi.description') }}</th>
-            <th class="amount" style="width: 20%;">{{ trans('fi.amount') }}</th>
+            <th style="width: 20%;">{{ trans('ip.description') }}</th>
+            <th class="amount" style="width: 20%;">{{ trans('ip.amount') }}</th>
         </tr>
         </thead>
 
@@ -36,7 +36,7 @@
         <tr>
             <td colspan="3"></td>
             <td class="totals_label">
-                {{ trans('fi.income') }}
+                {{ trans('ip.income') }}
             </td>
             <td class="totals_value amount">
                 {{ $results['total_income']}}
@@ -45,7 +45,7 @@
         <tr>
             <td colspan="3"></td>
             <td class="totals_label">
-                {{ trans('fi.expenses') }}
+                {{ trans('ip.expenses') }}
             </td>
             <td class="totals_value amount">
                 {{ $results['total_expense']}}
@@ -54,7 +54,7 @@
         <tr>
             <td colspan="3"></td>
             <td class="totals_label">
-                {{ trans('fi.balance') }}
+                {{ trans('ip.balance') }}
             </td>
             <td class="totals_value amount">
                 {{ $results['balance']}}
